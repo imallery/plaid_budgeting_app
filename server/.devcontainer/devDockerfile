@@ -1,0 +1,6 @@
+FROM python:3.15.0a2-bookworm
+
+# install the required python packages for this project
+RUN pip install flask
+RUN pip install plaid-python
+RUN pip install dotenv
